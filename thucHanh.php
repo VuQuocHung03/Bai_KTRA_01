@@ -17,7 +17,7 @@ function isPrime($number) {
 echo "Các số nguyên tố từ 1 đến 100 là: ";
 for ($i = 1; $i <= 100; $i++) {
     if (isPrime($i)) {
-        echo $i . "<br>";
+        echo $i . " ";
     }
 }
 
